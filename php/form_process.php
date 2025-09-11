@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $to = "hello@markoagency.com";
+    $to = "hello@mslate.ai";
     $email_subject = "Contact Form: " . $subject;
     $email_body = "
         First_Name: $firstname\n

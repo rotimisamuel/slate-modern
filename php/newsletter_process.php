@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $to = "Hello@markoagency.com";
+    $to = "Hello@slate.com";
     $subject = "New Newsletter Subscription";
     $message = "New subscriber: $email";
     $headers = "From: noreply@example.com\r\n";
